@@ -1,6 +1,7 @@
 <?php
 // entrees.php
-$page = 'entrees'; // Page actuelle
+$page = 'valorisation'; // Page actuelle
+$base_url = "../";
 include('../includes/header.php');
 ?>
 

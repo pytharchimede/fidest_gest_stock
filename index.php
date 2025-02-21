@@ -1,6 +1,9 @@
 <?php
 // index.php
 $page = 'accueil'; // Page actuelle (définir la page)
+
+$base_url = "";
+
 include 'includes/header.php';
 ?>
 

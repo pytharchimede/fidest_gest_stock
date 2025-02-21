@@ -1,7 +1,3 @@
-<?php
-// header.php
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -24,10 +20,14 @@
             </button>
 
             <ul id="menu" class="lg:flex space-x-6 text-gray-800 hidden lg:block">
-                <li><a href="pages/produits.php" class="<?= ($page == 'produits') ? 'text-teal-600' : 'hover:text-gray-500' ?>">Produits</a></li>
-                <li><a href="pages/entrees.php" class="<?= ($page == 'entrees') ? 'text-teal-600' : 'hover:text-gray-500' ?>">Entrées</a></li>
-                <li><a href="pages/sorties.php" class="<?= ($page == 'sorties') ? 'text-teal-600' : 'hover:text-gray-500' ?>">Sorties</a></li>
-                <!-- Ajoute d'autres liens de menu ici -->
+                <li><a href="<?= $base_url ?>index.php" class="<?= ($page == 'accueil') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Accueil</a></li>
+                <li><a href="<?= $base_url ?>pages/produits.php" class="<?= ($page == 'produits') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Produits</a></li>
+                <li><a href="<?= $base_url ?>pages/entrees.php" class="<?= ($page == 'entrees') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Entrées</a></li>
+                <li><a href="<?= $base_url ?>pages/commandes.php" class="<?= ($page == 'commandes') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Commandes</a></li>
+                <li><a href="<?= $base_url ?>pages/sorties.php" class="<?= ($page == 'sorties') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Sorties</a></li>
+                <li><a href="<?= $base_url ?>pages/valorisation.php" class="<?= ($page == 'valorisation') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Valorisation</a></li>
+                <li><a href="<?= $base_url ?>pages/inventaires.php" class="<?= ($page == 'inventaires') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Inventaires</a></li>
+                <li><a href="<?= $base_url ?>pages/chantiers.php" class="<?= ($page == 'chantiers') ? 'text-teal-600 font-bold' : 'hover:text-gray-500' ?>">Chantiers</a></li>
             </ul>
 
             <div class="flex items-center space-x-3 relative">

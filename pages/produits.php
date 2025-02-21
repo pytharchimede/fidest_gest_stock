@@ -1,6 +1,7 @@
 <?php
 // produits.php
 $page = 'produits'; // Page actuelle
+$base_url = "../";
 include('../includes/header.php');
 ?>
 
